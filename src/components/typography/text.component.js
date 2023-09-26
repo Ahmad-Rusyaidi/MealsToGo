@@ -9,44 +9,43 @@ const defaultTextStyles = (theme) => `
     margin-bottom: 0px;
 `;
 
-const body = (theme) =>`
+const body = (theme) => `
     font-size: ${theme.fontSizes.body};
 `;
 
-const hint = (theme) =>`
+const hint = (theme) => `
     font-size: ${theme.fontSizes.body};
 `;
 
-const error = (theme) =>`
+const error = (theme) => `
     color: ${theme.colors.text.error};
 `;
 
-const label = (theme) =>`
+const label = (theme) => `
     font-family: ${theme.fonts.heading};
     font-size: ${theme.fontSizes.body};
     font-weight: ${theme.fontWeights.medium};
 `;
 
-const caption = (theme) =>`
+const caption = (theme) => `
 font-size: ${theme.fontSizes.caption};
 font-weight: ${theme.fontWeights.bold};
 `;
 
 const variants = {
-    body,
-    label,
-    caption,
-    error,
-    hint,
+  body,
+  label,
+  caption,
+  error,
+  hint,
 };
-
 
 // <Text variant="something" />
 export const Text = styled.Text`
-    ${({ theme }) => defaultTextStyles(theme)}
-    ${({ variant, theme }) => variants[variant](theme)}
+  ${({ theme }) => defaultTextStyles(theme)}
+  ${({ variant, theme }) => variants[variant](theme)}
 `;
 
 Text.defaultProps = {
-    variant: "body"
+  variant: "body",
 };

@@ -2,13 +2,13 @@ import styled from "styled-components/native";
 import { Card } from "react-native-paper";
 
 export const Icon = styled.Image`
-    width: 15px;
-    height: 15px;
+  width: 15px;
+  height: 15px;
 `;
 
 export const Address = styled.Text`
-    font-family: ${(props) => props.theme.fonts.body};
-    font-size: ${(props) => props.theme.fontSizes.caption};
+  font-family: ${(props) => props.theme.fonts.body};
+  font-size: ${(props) => props.theme.fontSizes.caption};
 `;
 
 export const RestaurantCard = styled(Card)`
@@ -23,6 +23,7 @@ export const RestaurantCardCover = styled(Card.Cover)`
 
 export const Info = styled.View`
   padding: ${(props) => props.theme.space[3]};
+  padding-top: -2px;
 `;
 
 export const Rating = styled.View`

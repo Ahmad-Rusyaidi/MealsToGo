@@ -5,28 +5,50 @@ import {
   Platform,
   FlatList,
 } from "react-native";
-import React from "react";
+import React, { useContext } from "react";
 import styled from "styled-components/native";
-import { Searchbar } from "react-native-paper";
+import { Searchbar, ActivityIndicator } from "react-native-paper";
 import { RestaurantInfoCard } from "../components/restaurant-info-card.component";
+import { RestaurantContext } from "../../../services/restaurants/restaurants.context";
 
 const SearchContainer = styled.View`
   padding: ${(props) => props.theme.space[3]};
 `;
 
-export const RestaurantScreen = () => (
-  <SafeAreaView style={styles.container}>
-    <SearchContainer>
-      <Searchbar placeholder="Search..." />
-    </SearchContainer>
-      <FlatList 
-        data={[{name: 1}, {name: 2}, {name: 3}, {name: 4}, {name: 5}]}
-        renderItem={() => <RestaurantInfoCard />}
+const Loading = styled(ActivityIndicator)`
+  margin-left: -25px;
+`;
+
+const LoadingContainer = styled.View`
+  position: absolute;
+  top: 50%;
+  left: 50%;
+`;
+
+export const RestaurantScreen = () => {
+  const { restaurants, isLoading, error } = useContext(RestaurantContext);
+
+  return (
+    <SafeAreaView style={styles.container}>
+      {isLoading && (
+        <LoadingContainer>
+          <Loading size={50} animating={true} color="#0000ff" />
+        </LoadingContainer>
+      )}
+      <SearchContainer>
+        <Searchbar placeholder="Search..." />
+      </SearchContainer>
+      <FlatList
+        data={restaurants}
+        renderItem={({ item }) => {
+          return <RestaurantInfoCard restaurant={item} />;
+        }}
         keyExtractor={(item) => item.name}
         contentContainerStyle={{ padding: 14 }}
       />
-  </SafeAreaView>
-);
+    </SafeAreaView>
+  );
+};
 
 const styles = StyleSheet.create({
   container: {
