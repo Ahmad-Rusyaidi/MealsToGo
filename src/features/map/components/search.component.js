@@ -5,6 +5,10 @@ import { locationContext } from "../../../services/restaurants/location/location
 
 const SearchContainer = styled.View`
   padding: ${(props) => props.theme.space[3]};
+  position: absolute;
+  z-index: 999;
+  top: 25px;
+  width: 100%;
 `;
 
 export const Search = () => {
@@ -26,6 +30,7 @@ export const Search = () => {
         }}
         placeholder="Search..."
         value={searchKeyword}
+        icon="map"
       />
     </SearchContainer>
   );

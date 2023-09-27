@@ -10,18 +10,13 @@ import Ionicons from "@expo/vector-icons/Ionicons";
 import { NavigationContainer } from "@react-navigation/native";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import { RestaurantNavigator } from "./restaurants.navigator";
+import { MapScreen } from "../../features/map/screens/map.screen";
 
 const Tab = createBottomTabNavigator();
 
 const Settings = () => (
   <SafeAreaView style={styles.container}>
     <Text>Settings</Text>
-  </SafeAreaView>
-);
-
-const Maps = () => (
-  <SafeAreaView style={styles.container}>
-    <Text>Maps</Text>
   </SafeAreaView>
 );
 
@@ -55,7 +50,7 @@ export const AppNavigator = () => (
       <Tab.Screen
         options={{ headerShown: false }}
         name="Maps"
-        component={Maps}
+        component={MapScreen}
       />
       <Tab.Screen
         options={{ headerShown: false }}
