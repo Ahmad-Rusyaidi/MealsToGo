@@ -36,4 +36,4 @@ yarn-error.*
 
 */node_modules/**/*
 
-config
+config/
