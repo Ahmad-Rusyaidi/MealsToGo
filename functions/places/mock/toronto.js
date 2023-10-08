@@ -1,4 +1,4 @@
-{
+module.exports = {
     "html_attributions": [],
     "next_page_token": "some token",
     "results": [
@@ -6,42 +6,41 @@
         "business_status": "OPERATIONAL",
         "geometry": {
           "location": {
-            "lat": 41.886065,
-            "lng": -87.6208832
+            "lat": 43.6465623,
+            "lng": -79.374578
           },
           "viewport": {
             "northeast": {
-              "lat": 41.88758823029149,
-              "lng": -87.6194830697085
+              "lat": 43.64794098029149,
+              "lng": -79.37325551970848
             },
             "southwest": {
-              "lat": 41.88489026970849,
-              "lng": -87.6221810302915
+              "lat": 43.6452430197085,
+              "lng": -79.37595348029149
             }
           }
         },
         "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
-        "name": "Fairmont Chicago - Millennium Park",
+        "name": "Novotel Toronto Centre",
         "opening_hours": {
           "open_now": true
         },
         "photos": [
           {
-            "height": 1194,
+            "height": 4910,
             "html_attributions": [
               ""
             ],
             "photo_reference": "",
-            "width": 1800
+            "width": 6576
           }
         ],
-        "place_id": "some place id 21",
+        "place_id": "some place id 61",
         "plus_code": {
           "compound_code": "",
           "global_code": "",
         },
-        "price_level": 3,
-        "rating": 4.4,
+        "rating": 4.2,
         "reference": "",
         "scope": "",
         "types": [
@@ -51,349 +50,135 @@
           "point_of_interest",
           "establishment"
         ],
-        "user_ratings_total": 2085,
-        "vicinity": "200 North Columbus Drive, Chicago"
+        "user_ratings_total": 1822,
+        "vicinity": "45 The Esplanade, Toronto"
       },
       {
         "business_status": "OPERATIONAL",
         "geometry": {
           "location": {
-            "lat": 41.888868,
-            "lng": -87.626394
+            "lat": 43.6460303,
+            "lng": -79.381388
           },
           "viewport": {
             "northeast": {
-              "lat": 41.8904151302915,
-              "lng": -87.62518896970849
+              "lat": 43.6471657802915,
+              "lng": -79.3799530197085
             },
             "southwest": {
-              "lat": 41.8877171697085,
-              "lng": -87.6278869302915
+              "lat": 43.6444678197085,
+              "lng": -79.3826509802915
             }
           }
         },
         "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
-        "name": "Trump International Hotel & Tower® Chicago",
+        "name": "Fairmont Royal York",
         "opening_hours": {
           "open_now": true
         },
         "photos": [
           {
-            "height": 2000,
+            "height": 2048,
             "html_attributions": [
               ""
             ],
             "photo_reference": "",
-            "width": 3000
+            "width": 1621
           }
         ],
-        "place_id": "some place id 22",
+        "place_id": "some place id 62",
         "plus_code": {
           "compound_code": "",
           "global_code": "",
         },
-        "rating": 4.1,
-        "reference": "",
-        "scope": "",
-        "types": [
-          "spa",
-          "lodging",
-          "restaurant",
-          "food",
-          "gym",
-          "health",
-          "point_of_interest",
-          "establishment"
-        ],
-        "user_ratings_total": 2624,
-        "vicinity": "401 North Wabash Avenue, Chicago"
-      },
-      {
-        "business_status": "OPERATIONAL",
-        "geometry": {
-          "location": {
-            "lat": 41.8870687,
-            "lng": -87.61948509999999
-          },
-          "viewport": {
-            "northeast": {
-              "lat": 41.8887213802915,
-              "lng": -87.61806096970848
-            },
-            "southwest": {
-              "lat": 41.8860234197085,
-              "lng": -87.6207589302915
-            }
-          }
-        },
-        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
-        "name": "Swissotel Chicago",
-        "opening_hours": {
-          "open_now": true
-        },
-        "photos": [
-          {
-            "height": 3024,
-            "html_attributions": [
-              ""
-            ],
-            "photo_reference": "",
-            "width": 4032
-          }
-        ],
-        "place_id": "some place id 23",
-        "plus_code": {
-          "compound_code": "",
-          "global_code": "",
-        },
-        "rating": 4.4,
-        "reference": "",
-        "scope": "",
-        "types": [
-          "lodging",
-          "restaurant",
-          "food",
-          "point_of_interest",
-          "establishment"
-        ],
-        "user_ratings_total": 4059,
-        "vicinity": "323 East Wacker Drive, Chicago"
-      },
-      {
-        "business_status": "OPERATIONAL",
-        "geometry": {
-          "location": {
-            "lat": 41.87156110000001,
-            "lng": -87.62728609999999
-          },
-          "viewport": {
-            "northeast": {
-              "lat": 41.8729340802915,
-              "lng": -87.62602206970848
-            },
-            "southwest": {
-              "lat": 41.8702361197085,
-              "lng": -87.6287200302915
-            }
-          }
-        },
-        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
-        "name": "Lou Malnati's Pizzeria",
-        "opening_hours": {
-          "open_now": true
-        },
-        "photos": [
-          {
-            "height": 2640,
-            "html_attributions": [
-              ""
-            ],
-            "photo_reference": "",
-            "width": 3960
-          }
-        ],
-        "place_id": "some place id 24",
-        "plus_code": {
-          "compound_code": "",
-          "global_code": "",
-        },
-        "price_level": 2,
         "rating": 4.5,
         "reference": "",
         "scope": "",
         "types": [
-          "meal_delivery",
-          "meal_takeaway",
+          "lodging",
           "restaurant",
           "food",
           "point_of_interest",
           "establishment"
         ],
-        "user_ratings_total": 6103,
-        "vicinity": "805 South State Street, Chicago"
+        "user_ratings_total": 8383,
+        "vicinity": "100 Front Street West, Toronto"
       },
       {
         "business_status": "OPERATIONAL",
         "geometry": {
           "location": {
-            "lat": 41.88907469999999,
-            "lng": -87.62988229999999
+            "lat": 43.65,
+            "lng": -79.39638889999999
           },
           "viewport": {
             "northeast": {
-              "lat": 41.89049998029149,
-              "lng": -87.62853766970849
+              "lat": 43.6512747302915,
+              "lng": -79.39500986970849
             },
             "southwest": {
-              "lat": 41.8878020197085,
-              "lng": -87.6312356302915
+              "lat": 43.6485767697085,
+              "lng": -79.3977078302915
             }
           }
         },
-        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
-        "name": "Siena Tavern",
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
+        "name": "HOTEL OCHO",
         "opening_hours": {
           "open_now": true
         },
         "photos": [
           {
-            "height": 812,
+            "height": 1924,
             "html_attributions": [
               ""
             ],
             "photo_reference": "",
-            "width": 1220
+            "width": 3598
           }
         ],
-        "place_id": "some place id 25",
+        "place_id": "some place id 63",
         "plus_code": {
           "compound_code": "",
           "global_code": "",
         },
-        "price_level": 3,
-        "rating": 4.5,
+        "rating": 4.3,
         "reference": "",
         "scope": "",
         "types": [
+          "lodging",
           "bar",
           "restaurant",
           "food",
           "point_of_interest",
           "establishment"
         ],
-        "user_ratings_total": 1906,
-        "vicinity": "51 West Kinzie Street, Chicago"
+        "user_ratings_total": 502,
+        "vicinity": "195 Spadina Avenue, Toronto"
       },
       {
         "business_status": "OPERATIONAL",
         "geometry": {
           "location": {
-            "lat": 41.8846222,
-            "lng": -87.6297111
+            "lat": 43.64696989999999,
+            "lng": -79.3932324
           },
           "viewport": {
             "northeast": {
-              "lat": 41.8859492302915,
-              "lng": -87.62826921970849
+              "lat": 43.64837233029149,
+              "lng": -79.3916331697085
             },
             "southwest": {
-              "lat": 41.8832512697085,
-              "lng": -87.63096718029149
+              "lat": 43.64567436970849,
+              "lng": -79.3943311302915
             }
           }
         },
         "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
-        "name": "Petterino's",
-        "opening_hours": {
-          "open_now": true
-        },
+        "name": "Marquis Lounge and Bistro",
         "photos": [
           {
-            "height": 1000,
-            "html_attributions": [
-              ""
-            ],
-            "photo_reference": "",
-            "width": 1500
-          }
-        ],
-        "place_id": "some place id 26",
-        "plus_code": {
-          "compound_code": "",
-          "global_code": "",
-        },
-        "price_level": 2,
-        "rating": 4.4,
-        "reference": "",
-        "scope": "",
-        "types": [
-          "bar",
-          "restaurant",
-          "food",
-          "point_of_interest",
-          "establishment"
-        ],
-        "user_ratings_total": 1255,
-        "vicinity": "150 North Dearborn Street, Chicago"
-      },
-      {
-        "business_status": "OPERATIONAL",
-        "geometry": {
-          "location": {
-            "lat": 41.87801039999999,
-            "lng": -87.63489799999999
-          },
-          "viewport": {
-            "northeast": {
-              "lat": 41.87941258029149,
-              "lng": -87.63347921970849
-            },
-            "southwest": {
-              "lat": 41.87671461970849,
-              "lng": -87.6361771802915
-            }
-          }
-        },
-        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
-        "name": "Giordano's",
-        "opening_hours": {
-          "open_now": true
-        },
-        "photos": [
-          {
-            "height": 750,
-            "html_attributions": [
-              ""
-            ],
-            "photo_reference": "",
-            "width": 1000
-          }
-        ],
-        "place_id": "some place id 27",
-        "plus_code": {
-          "compound_code": "",
-          "global_code": "",
-        },
-        "price_level": 2,
-        "rating": 4.5,
-        "reference": "",
-        "scope": "",
-        "types": [
-          "meal_takeaway",
-          "restaurant",
-          "food",
-          "point_of_interest",
-          "establishment"
-        ],
-        "user_ratings_total": 6816,
-        "vicinity": "223 West Jackson Boulevard, Chicago"
-      },
-      {
-        "business_status": "OPERATIONAL",
-        "geometry": {
-          "location": {
-            "lat": 41.8813268,
-            "lng": -87.6246925
-          },
-          "viewport": {
-            "northeast": {
-              "lat": 41.8826719802915,
-              "lng": -87.62322306970849
-            },
-            "southwest": {
-              "lat": 41.8799740197085,
-              "lng": -87.6259210302915
-            }
-          }
-        },
-        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
-        "name": "The Gage",
-        "opening_hours": {
-          "open_now": true
-        },
-        "photos": [
-          {
-            "height": 1367,
+            "height": 1500,
             "html_attributions": [
               ""
             ],
@@ -401,7 +186,109 @@
             "width": 2048
           }
         ],
-        "place_id": "some place id 28",
+        "place_id": "some place id 64",
+        "plus_code": {
+          "compound_code": "",
+          "global_code": "",
+        },
+        "rating": 4.4,
+        "reference": "",
+        "scope": "",
+        "types": [
+          "restaurant",
+          "bar",
+          "food",
+          "point_of_interest",
+          "establishment"
+        ],
+        "user_ratings_total": 9,
+        "vicinity": "92 Peter Street, Toronto"
+      },
+      {
+        "business_status": "OPERATIONAL",
+        "geometry": {
+          "location": {
+            "lat": 43.64723610000001,
+            "lng": -79.3765722
+          },
+          "viewport": {
+            "northeast": {
+              "lat": 43.64853203029149,
+              "lng": -79.3754588697085
+            },
+            "southwest": {
+              "lat": 43.64583406970849,
+              "lng": -79.3781568302915
+            }
+          }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+        "name": "Oliver & Bonacini Café Grill, Yonge & Front",
+        "opening_hours": {
+          "open_now": false
+        },
+        "photos": [
+          {
+            "height": 480,
+            "html_attributions": [
+              ""
+            ],
+            "photo_reference": "",
+            "width": 640
+          }
+        ],
+        "place_id": "some place id 65",
+        "plus_code": {
+          "compound_code": "",
+          "global_code": "",
+        },
+        "price_level": 2,
+        "rating": 4,
+        "reference": "",
+        "scope": "",
+        "types": [
+          "restaurant",
+          "night_club",
+          "bar",
+          "food",
+          "point_of_interest",
+          "establishment"
+        ],
+        "user_ratings_total": 1382,
+        "vicinity": "33 Yonge Street, Toronto"
+      },
+      {
+        "business_status": "CLOSED_TEMPORARILY",
+        "geometry": {
+          "location": {
+            "lat": 43.6574337,
+            "lng": -79.3832666
+          },
+          "viewport": {
+            "northeast": {
+              "lat": 43.6588368302915,
+              "lng": -79.38194011970849
+            },
+            "southwest": {
+              "lat": 43.6561388697085,
+              "lng": -79.38463808029151
+            }
+          }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+        "name": "Adega Restaurante",
+        "permanently_closed": true,
+        "photos": [
+          {
+            "height": 3456,
+            "html_attributions": [
+              ""
+            ],
+            "photo_reference": "",
+            "width": 4608
+          }
+        ],
+        "place_id": "some place id 66",
         "plus_code": {
           "compound_code": "",
           "global_code": "",
@@ -411,38 +298,86 @@
         "reference": "",
         "scope": "",
         "types": [
-          "bar",
           "restaurant",
           "food",
           "point_of_interest",
           "establishment"
         ],
-        "user_ratings_total": 2771,
-        "vicinity": "24 South Michigan Avenue, Chicago"
+        "user_ratings_total": 405,
+        "vicinity": "33 Elm Street, Toronto"
       },
       {
         "business_status": "OPERATIONAL",
         "geometry": {
           "location": {
-            "lat": 41.86886419999999,
-            "lng": -87.62456600000002
+            "lat": 43.650916,
+            "lng": -79.375685
           },
           "viewport": {
             "northeast": {
-              "lat": 41.8702152302915,
-              "lng": -87.6230221197085
+              "lat": 43.6523067302915,
+              "lng": -79.3743523697085
             },
             "southwest": {
-              "lat": 41.8675172697085,
-              "lng": -87.6257200802915
+              "lat": 43.64960876970851,
+              "lng": -79.37705033029151
             }
           }
         },
         "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
-        "name": "Yolk - South Loop",
+        "name": "Terroni",
         "opening_hours": {
           "open_now": true
         },
+        "photos": [
+          {
+            "height": 3840,
+            "html_attributions": [
+              ""
+            ],
+            "photo_reference": "",
+            "width": 5760
+          }
+        ],
+        "place_id": "some place id 67",
+        "plus_code": {
+          "compound_code": "",
+          "global_code": "",
+        },
+        "price_level": 2,
+        "rating": 4.2,
+        "reference": "",
+        "scope": "",
+        "types": [
+          "restaurant",
+          "food",
+          "point_of_interest",
+          "establishment"
+        ],
+        "user_ratings_total": 3698,
+        "vicinity": "57 Adelaide Street East, Toronto"
+      },
+      {
+        "business_status": "CLOSED_TEMPORARILY",
+        "geometry": {
+          "location": {
+            "lat": 43.6499945,
+            "lng": -79.3839517
+          },
+          "viewport": {
+            "northeast": {
+              "lat": 43.6512935302915,
+              "lng": -79.3828103697085
+            },
+            "southwest": {
+              "lat": 43.6485955697085,
+              "lng": -79.3855083302915
+            }
+          }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+        "name": "The Keg Steakhouse + Bar - York Street",
+        "permanently_closed": true,
         "photos": [
           {
             "height": 2268,
@@ -453,313 +388,61 @@
             "width": 4032
           }
         ],
-        "place_id": "some place id 29",
+        "place_id": "some place id 68",
         "plus_code": {
           "compound_code": "",
           "global_code": "",
         },
-        "price_level": 2,
+        "price_level": 3,
         "rating": 4.5,
         "reference": "",
         "scope": "",
         "types": [
-          "cafe",
           "restaurant",
           "food",
           "point_of_interest",
-          "store",
           "establishment"
         ],
-        "user_ratings_total": 3098,
-        "vicinity": "1120 South Michigan Avenue, Chicago"
+        "user_ratings_total": 2954,
+        "vicinity": "165 York Street, Toronto"
       },
       {
         "business_status": "CLOSED_TEMPORARILY",
         "geometry": {
           "location": {
-            "lat": 41.885236,
-            "lng": -87.631823
+            "lat": 43.6479063,
+            "lng": -79.3780646
           },
           "viewport": {
             "northeast": {
-              "lat": 41.8863183302915,
-              "lng": -87.6307493697085
+              "lat": 43.64915643029151,
+              "lng": -79.3766743197085
             },
             "southwest": {
-              "lat": 41.8836203697085,
-              "lng": -87.6334473302915
+              "lat": 43.64645846970851,
+              "lng": -79.3793722802915
             }
           }
         },
         "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
-        "name": "M Burger",
+        "name": "Jump Restaurant",
         "permanently_closed": true,
         "photos": [
           {
-            "height": 1333,
+            "height": 636,
             "html_attributions": [
               ""
             ],
             "photo_reference": "",
-            "width": 2000
+            "width": 960
           }
         ],
-        "place_id": "some place id 30",
+        "place_id": "some place id 69",
         "plus_code": {
           "compound_code": "",
           "global_code": "",
         },
-        "rating": 4,
-        "reference": "",
-        "scope": "",
-        "types": [
-          "restaurant",
-          "food",
-          "point_of_interest",
-          "establishment"
-        ],
-        "user_ratings_total": 113,
-        "vicinity": "THOMPSON CENTER, 100 West Randolph Street, Chicago"
-      },
-      {
-        "business_status": "OPERATIONAL",
-        "geometry": {
-          "location": {
-            "lat": 41.8847209,
-            "lng": -87.6228606
-          },
-          "viewport": {
-            "northeast": {
-              "lat": 41.8859644302915,
-              "lng": -87.62155841970849
-            },
-            "southwest": {
-              "lat": 41.8832664697085,
-              "lng": -87.6242563802915
-            }
-          }
-        },
-        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/cafe-71.png",
-        "name": "Wildberry Pancakes & Cafe",
-        "opening_hours": {
-          "open_now": true
-        },
-        "photos": [
-          {
-            "height": 3024,
-            "html_attributions": [
-              ""
-            ],
-            "photo_reference": "",
-            "width": 4032
-          }
-        ],
-        "place_id": "some place id 31",
-        "plus_code": {
-          "compound_code": "",
-          "global_code": "",
-        },
-        "price_level": 2,
-        "rating": 4.6,
-        "reference": "",
-        "scope": "",
-        "types": [
-          "cafe",
-          "restaurant",
-          "food",
-          "point_of_interest",
-          "establishment"
-        ],
-        "user_ratings_total": 5639,
-        "vicinity": "130 East Randolph Street, Chicago"
-      },
-      {
-        "business_status": "CLOSED_TEMPORARILY",
-        "geometry": {
-          "location": {
-            "lat": 41.87925200000001,
-            "lng": -87.628406
-          },
-          "viewport": {
-            "northeast": {
-              "lat": 41.8806998302915,
-              "lng": -87.62706636970849
-            },
-            "southwest": {
-              "lat": 41.87800186970851,
-              "lng": -87.6297643302915
-            }
-          }
-        },
-        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
-        "name": "The Berghoff Restaurant",
-        "permanently_closed": true,
-        "photos": [
-          {
-            "height": 1200,
-            "html_attributions": [
-              ""
-            ],
-            "photo_reference": "",
-            "width": 1800
-          }
-        ],
-        "place_id": "some place id 32",
-        "plus_code": {
-          "compound_code": "",
-          "global_code": "",
-        },
-        "price_level": 2,
-        "rating": 4.4,
-        "reference": "",
-        "scope": "",
-        "types": [
-          "restaurant",
-          "food",
-          "point_of_interest",
-          "establishment"
-        ],
-        "user_ratings_total": 3042,
-        "vicinity": "17 West Adams Street, Chicago"
-      },
-      {
-        "business_status": "OPERATIONAL",
-        "geometry": {
-          "location": {
-            "lat": 41.8779176,
-            "lng": -87.6421428
-          },
-          "viewport": {
-            "northeast": {
-              "lat": 41.8793143802915,
-              "lng": -87.6408205197085
-            },
-            "southwest": {
-              "lat": 41.8766164197085,
-              "lng": -87.6435184802915
-            }
-          }
-        },
-        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
-        "name": "Lou Mitchell's",
-        "opening_hours": {
-          "open_now": true
-        },
-        "photos": [
-          {
-            "height": 1512,
-            "html_attributions": [
-              ""
-            ],
-            "photo_reference": "",
-            "width": 2016
-          }
-        ],
-        "place_id": "some place id 33",
-        "plus_code": {
-          "compound_code": "",
-          "global_code": "",
-        },
-        "price_level": 2,
-        "rating": 4.6,
-        "reference": "",
-        "scope": "",
-        "types": [
-          "restaurant",
-          "food",
-          "point_of_interest",
-          "establishment"
-        ],
-        "user_ratings_total": 2329,
-        "vicinity": "565 West Jackson Boulevard, Chicago"
-      },
-      {
-        "business_status": "CLOSED_TEMPORARILY",
-        "geometry": {
-          "location": {
-            "lat": 41.8804843,
-            "lng": -87.6377693
-          },
-          "viewport": {
-            "northeast": {
-              "lat": 41.8818916302915,
-              "lng": -87.6364167697085
-            },
-            "southwest": {
-              "lat": 41.8791936697085,
-              "lng": -87.63911473029151
-            }
-          }
-        },
-        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
-        "name": "South Branch Tavern and Grille",
-        "permanently_closed": true,
-        "photos": [
-          {
-            "height": 6656,
-            "html_attributions": [
-              ""
-            ],
-            "photo_reference": "",
-            "width": 13312
-          }
-        ],
-        "place_id": "some place id 34",
-        "plus_code": {
-          "compound_code": "",
-          "global_code": "",
-        },
-        "price_level": 2,
-        "rating": 4.3,
-        "reference": "",
-        "scope": "",
-        "types": [
-          "bar",
-          "restaurant",
-          "food",
-          "point_of_interest",
-          "establishment"
-        ],
-        "user_ratings_total": 1078,
-        "vicinity": "100 South Wacker Drive, Chicago"
-      },
-      {
-        "business_status": "CLOSED_TEMPORARILY",
-        "geometry": {
-          "location": {
-            "lat": 41.8864683,
-            "lng": -87.62409380000001
-          },
-          "viewport": {
-            "northeast": {
-              "lat": 41.8877839302915,
-              "lng": -87.62292246970848
-            },
-            "southwest": {
-              "lat": 41.8850859697085,
-              "lng": -87.62562043029149
-            }
-          }
-        },
-        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
-        "name": "Sweetwater Tavern and Grille",
-        "permanently_closed": true,
-        "photos": [
-          {
-            "height": 717,
-            "html_attributions": [
-              ""
-            ],
-            "photo_reference": "",
-            "width": 1080
-          }
-        ],
-        "place_id": "some place id 35",
-        "plus_code": {
-          "compound_code": "",
-          "global_code": "",
-        },
-        "price_level": 2,
+        "price_level": 3,
         "rating": 4.2,
         "reference": "",
         "scope": "",
@@ -770,29 +453,32 @@
           "point_of_interest",
           "establishment"
         ],
-        "user_ratings_total": 2203,
-        "vicinity": "225 Michigan Avenue, Chicago"
+        "user_ratings_total": 781,
+        "vicinity": "18 Wellington Street West, Toronto"
       },
       {
         "business_status": "OPERATIONAL",
         "geometry": {
           "location": {
-            "lat": 41.8730121,
-            "lng": -87.6261784
+            "lat": 43.655701,
+            "lng": -79.37917499999999
           },
           "viewport": {
             "northeast": {
-              "lat": 41.8743669802915,
-              "lng": -87.6247206197085
+              "lat": 43.6570138802915,
+              "lng": -79.37781131970848
             },
             "southwest": {
-              "lat": 41.8716690197085,
-              "lng": -87.6274185802915
+              "lat": 43.6543159197085,
+              "lng": -79.38050928029149
             }
           }
         },
-        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png",
-        "name": "Buddy Guy's Legends",
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+        "name": "The Senator",
+        "opening_hours": {
+          "open_now": false
+        },
         "photos": [
           {
             "height": 2048,
@@ -800,216 +486,112 @@
               ""
             ],
             "photo_reference": "",
-            "width": 1365
+            "width": 2048
           }
         ],
-        "place_id": "some place id 36",
+        "place_id": "some place id 70",
         "plus_code": {
           "compound_code": "",
           "global_code": "",
         },
         "price_level": 2,
-        "rating": 4.6,
+        "rating": 4.3,
         "reference": "",
         "scope": "",
         "types": [
-          "night_club",
-          "bar",
           "restaurant",
           "food",
           "point_of_interest",
           "establishment"
         ],
-        "user_ratings_total": 2118,
-        "vicinity": "700 South Wabash Avenue, Chicago"
+        "user_ratings_total": 1371,
+        "vicinity": "249 Victoria Street, Toronto"
       },
       {
         "business_status": "OPERATIONAL",
         "geometry": {
           "location": {
-            "lat": 41.89052059999999,
-            "lng": -87.6308469
+            "lat": 43.6573753,
+            "lng": -79.383461
           },
           "viewport": {
             "northeast": {
-              "lat": 41.89185658029149,
-              "lng": -87.6296195197085
+              "lat": 43.6587842802915,
+              "lng": -79.38213851970849
             },
             "southwest": {
-              "lat": 41.88915861970849,
-              "lng": -87.63231748029152
+              "lat": 43.6560863197085,
+              "lng": -79.3848364802915
             }
           }
         },
         "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
-        "name": "Frontera Grill",
+        "name": "Donatello Restaurant",
         "opening_hours": {
-          "open_now": true
+          "open_now": false
         },
         "photos": [
           {
-            "height": 2667,
+            "height": 2048,
             "html_attributions": [
               ""
             ],
             "photo_reference": "",
-            "width": 4000
+            "width": 1902
           }
         ],
-        "place_id": "some place id 37",
-        "plus_code": {
-          "compound_code": "",
-          "global_code": "",
-        },
-        "price_level": 2,
-        "rating": 4.5,
-        "reference": "",
-        "scope": "",
-        "types": [
-          "restaurant",
-          "food",
-          "point_of_interest",
-          "establishment"
-        ],
-        "user_ratings_total": 2064,
-        "vicinity": "445 North Clark Street, Chicago"
-      },
-      {
-        "business_status": "CLOSED_TEMPORARILY",
-        "geometry": {
-          "location": {
-            "lat": 41.88231769999999,
-            "lng": -87.63612839999999
-          },
-          "viewport": {
-            "northeast": {
-              "lat": 41.88371053029149,
-              "lng": -87.6350946697085
-            },
-            "southwest": {
-              "lat": 41.8810125697085,
-              "lng": -87.6377926302915
-            }
-          }
-        },
-        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
-        "name": "One North Kitchen & Bar",
-        "permanently_closed": true,
-        "photos": [
-          {
-            "height": 768,
-            "html_attributions": [
-              ""
-            ],
-            "photo_reference": "",
-            "width": 1024
-          }
-        ],
-        "place_id": "some place id 38",
-        "plus_code": {
-          "compound_code": "",
-          "global_code": "",
-        },
-        "price_level": 2,
-        "rating": 4.1,
-        "reference": "",
-        "scope": "",
-        "types": [
-          "bar",
-          "restaurant",
-          "food",
-          "point_of_interest",
-          "establishment"
-        ],
-        "user_ratings_total": 322,
-        "vicinity": "1 North Upper Wacker Drive, Chicago"
-      },
-      {
-        "business_status": "OPERATIONAL",
-        "geometry": {
-          "location": {
-            "lat": 41.88433,
-            "lng": -87.632809
-          },
-          "viewport": {
-            "northeast": {
-              "lat": 41.8856780802915,
-              "lng": -87.6313017697085
-            },
-            "southwest": {
-              "lat": 41.8829801197085,
-              "lng": -87.6339997302915
-            }
-          }
-        },
-        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
-        "name": "312 Chicago",
-        "opening_hours": {
-          "open_now": true
-        },
-        "photos": [
-          {
-            "height": 757,
-            "html_attributions": [
-              ""
-            ],
-            "photo_reference": "",
-            "width": 1024
-          }
-        ],
-        "place_id": "some place id 39",
+        "place_id": "some place id 71",
         "plus_code": {
           "compound_code": "",
           "global_code": "",
         },
         "price_level": 3,
-        "rating": 4.5,
+        "rating": 4.3,
         "reference": "",
         "scope": "",
         "types": [
-          "bar",
           "restaurant",
           "food",
           "point_of_interest",
           "establishment"
         ],
-        "user_ratings_total": 810,
-        "vicinity": "136 North LaSalle Street, Chicago"
+        "user_ratings_total": 798,
+        "vicinity": "37 Elm Street, Toronto"
       },
       {
         "business_status": "OPERATIONAL",
         "geometry": {
           "location": {
-            "lat": 41.8880993,
-            "lng": -87.6327417
+            "lat": 43.6475793,
+            "lng": -79.38090369999999
           },
           "viewport": {
             "northeast": {
-              "lat": 41.8894707302915,
-              "lng": -87.6313121197085
+              "lat": 43.6486975802915,
+              "lng": -79.3795757197085
             },
             "southwest": {
-              "lat": 41.8867727697085,
-              "lng": -87.63401008029152
+              "lat": 43.6459996197085,
+              "lng": -79.3822736802915
             }
           }
         },
         "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
-        "name": "Chicago Cut Steakhouse",
+        "name": "Canoe",
         "opening_hours": {
-          "open_now": true
+          "open_now": false
         },
         "photos": [
           {
-            "height": 1533,
+            "height": 2988,
             "html_attributions": [
               ""
             ],
             "photo_reference": "",
-            "width": 2239
+            "width": 5312
           }
         ],
-        "place_id": "some place id 40",
+        "place_id": "some place id 72",
         "plus_code": {
           "compound_code": "",
           "global_code": "",
@@ -1025,8 +607,419 @@
           "point_of_interest",
           "establishment"
         ],
-        "user_ratings_total": 1860,
-        "vicinity": "300 North LaSalle Drive, Chicago"
+        "user_ratings_total": 2019,
+        "vicinity": "66 Wellington Street West 54th floor, Toronto"
+      },
+      {
+        "business_status": "OPERATIONAL",
+        "geometry": {
+          "location": {
+            "lat": 43.64541,
+            "lng": -79.383865
+          },
+          "viewport": {
+            "northeast": {
+              "lat": 43.6465791802915,
+              "lng": -79.3824437197085
+            },
+            "southwest": {
+              "lat": 43.6438812197085,
+              "lng": -79.38514168029151
+            }
+          }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+        "name": "Jack Astor's Bar & Grill",
+        "opening_hours": {
+          "open_now": true
+        },
+        "photos": [
+          {
+            "height": 3024,
+            "html_attributions": [
+              ""
+            ],
+            "photo_reference": "",
+            "width": 4032
+          }
+        ],
+        "place_id": "some place id 73",
+        "plus_code": {
+          "compound_code": "",
+          "global_code": "",
+        },
+        "price_level": 2,
+        "rating": 4.1,
+        "reference": "",
+        "scope": "",
+        "types": [
+          "bar",
+          "restaurant",
+          "food",
+          "point_of_interest",
+          "establishment"
+        ],
+        "user_ratings_total": 4973,
+        "vicinity": "144 Front Street West, Toronto"
+      },
+      {
+        "business_status": "OPERATIONAL",
+        "geometry": {
+          "location": {
+            "lat": 43.6576597,
+            "lng": -79.381692
+          },
+          "viewport": {
+            "northeast": {
+              "lat": 43.6590311302915,
+              "lng": -79.38024316970849
+            },
+            "southwest": {
+              "lat": 43.6563331697085,
+              "lng": -79.3829411302915
+            }
+          }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+        "name": "Salad King",
+        "opening_hours": {
+          "open_now": true
+        },
+        "photos": [
+          {
+            "height": 1200,
+            "html_attributions": [
+              ""
+            ],
+            "photo_reference": "",
+            "width": 1343
+          }
+        ],
+        "place_id": "some place id 74",
+        "plus_code": {
+          "compound_code": "",
+          "global_code": "",
+        },
+        "price_level": 1,
+        "rating": 4.3,
+        "reference": "",
+        "scope": "",
+        "types": [
+          "restaurant",
+          "food",
+          "point_of_interest",
+          "establishment"
+        ],
+        "user_ratings_total": 3669,
+        "vicinity": "340 Yonge Street, Toronto"
+      },
+      {
+        "business_status": "CLOSED_TEMPORARILY",
+        "geometry": {
+          "location": {
+            "lat": 43.64735829999999,
+            "lng": -79.3866278
+          },
+          "viewport": {
+            "northeast": {
+              "lat": 43.6486633302915,
+              "lng": -79.38526061970849
+            },
+            "southwest": {
+              "lat": 43.6459653697085,
+              "lng": -79.38795858029151
+            }
+          }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+        "name": "IL FORNELLO on King",
+        "permanently_closed": true,
+        "photos": [
+          {
+            "height": 1200,
+            "html_attributions": [
+              ""
+            ],
+            "photo_reference": "",
+            "width": 1800
+          }
+        ],
+        "place_id": "some place id 75",
+        "plus_code": {
+          "compound_code": "",
+          "global_code": "",
+        },
+        "price_level": 2,
+        "rating": 4.1,
+        "reference": "",
+        "scope": "",
+        "types": [
+          "meal_delivery",
+          "meal_takeaway",
+          "bar",
+          "restaurant",
+          "food",
+          "point_of_interest",
+          "establishment"
+        ],
+        "user_ratings_total": 763,
+        "vicinity": "214 King Street West, Toronto"
+      },
+      {
+        "business_status": "OPERATIONAL",
+        "geometry": {
+          "location": {
+            "lat": 43.6502346,
+            "lng": -79.3889547
+          },
+          "viewport": {
+            "northeast": {
+              "lat": 43.6516236302915,
+              "lng": -79.3876224697085
+            },
+            "southwest": {
+              "lat": 43.6489256697085,
+              "lng": -79.39032043029151
+            }
+          }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+        "name": "Little India Restaurant",
+        "opening_hours": {
+          "open_now": true
+        },
+        "photos": [
+          {
+            "height": 1365,
+            "html_attributions": [
+              ""
+            ],
+            "photo_reference": "",
+            "width": 2048
+          }
+        ],
+        "place_id": "some place id 76",
+        "plus_code": {
+          "compound_code": "",
+          "global_code": "",
+        },
+        "price_level": 2,
+        "rating": 4,
+        "reference": "",
+        "scope": "",
+        "types": [
+          "meal_takeaway",
+          "restaurant",
+          "food",
+          "point_of_interest",
+          "establishment"
+        ],
+        "user_ratings_total": 1976,
+        "vicinity": "255 Queen Street West, Toronto"
+      },
+      {
+        "business_status": "OPERATIONAL",
+        "geometry": {
+          "location": {
+            "lat": 43.6470917,
+            "lng": -79.37404169999999
+          },
+          "viewport": {
+            "northeast": {
+              "lat": 43.6483725802915,
+              "lng": -79.37263056970849
+            },
+            "southwest": {
+              "lat": 43.6456746197085,
+              "lng": -79.3753285302915
+            }
+          }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png",
+        "name": "Scotland Yard Pub",
+        "opening_hours": {
+          "open_now": true
+        },
+        "photos": [
+          {
+            "height": 1055,
+            "html_attributions": [
+              ""
+            ],
+            "photo_reference": "",
+            "width": 2048
+          }
+        ],
+        "place_id": "some place id 77",
+        "plus_code": {
+          "compound_code": "",
+          "global_code": "",
+        },
+        "price_level": 2,
+        "rating": 4.2,
+        "reference": "",
+        "scope": "",
+        "types": [
+          "bar",
+          "restaurant",
+          "food",
+          "point_of_interest",
+          "establishment"
+        ],
+        "user_ratings_total": 1202,
+        "vicinity": "56 The Esplanade, Toronto"
+      },
+      {
+        "business_status": "OPERATIONAL",
+        "geometry": {
+          "location": {
+            "lat": 43.64624899999999,
+            "lng": -79.390453
+          },
+          "viewport": {
+            "northeast": {
+              "lat": 43.64768978029149,
+              "lng": -79.3891442697085
+            },
+            "southwest": {
+              "lat": 43.64499181970849,
+              "lng": -79.3918422302915
+            }
+          }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+        "name": "309 Dhaba Indian Restaurant of Excellence",
+        "opening_hours": {
+          "open_now": true
+        },
+        "photos": [
+          {
+            "height": 731,
+            "html_attributions": [
+              ""
+            ],
+            "photo_reference": "",
+            "width": 1024
+          }
+        ],
+        "place_id": "some place id 78",
+        "plus_code": {
+          "compound_code": "",
+          "global_code": "",
+        },
+        "price_level": 2,
+        "rating": 3.3,
+        "reference": "",
+        "scope": "",
+        "types": [
+          "meal_delivery",
+          "restaurant",
+          "food",
+          "point_of_interest",
+          "establishment"
+        ],
+        "user_ratings_total": 1410,
+        "vicinity": "309 King Street West, Toronto"
+      },
+      {
+        "business_status": "CLOSED_TEMPORARILY",
+        "geometry": {
+          "location": {
+            "lat": 43.6503155,
+            "lng": -79.3847182
+          },
+          "viewport": {
+            "northeast": {
+              "lat": 43.6517116802915,
+              "lng": -79.3833894197085
+            },
+            "southwest": {
+              "lat": 43.6490137197085,
+              "lng": -79.3860873802915
+            }
+          }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+        "name": "VOLOS",
+        "permanently_closed": true,
+        "photos": [
+          {
+            "height": 3522,
+            "html_attributions": [
+              ""
+            ],
+            "photo_reference": "",
+            "width": 5283
+          }
+        ],
+        "place_id": "some place id 79",
+        "plus_code": {
+          "compound_code": "",
+          "global_code": "",
+        },
+        "price_level": 3,
+        "rating": 4.4,
+        "reference": "",
+        "scope": "",
+        "types": [
+          "restaurant",
+          "food",
+          "point_of_interest",
+          "establishment"
+        ],
+        "user_ratings_total": 763,
+        "vicinity": "133 Richmond Street West, Toronto"
+      },
+      {
+        "business_status": "OPERATIONAL",
+        "geometry": {
+          "location": {
+            "lat": 43.6506177,
+            "lng": -79.3882088
+          },
+          "viewport": {
+            "northeast": {
+              "lat": 43.65190503029149,
+              "lng": -79.3868345697085
+            },
+            "southwest": {
+              "lat": 43.6492070697085,
+              "lng": -79.3895325302915
+            }
+          }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+        "name": "PLANTA Queen",
+        "opening_hours": {
+          "open_now": true
+        },
+        "photos": [
+          {
+            "height": 3840,
+            "html_attributions": [
+              ""
+            ],
+            "photo_reference": "",
+            "width": 5760
+          }
+        ],
+        "place_id": "some place id 80",
+        "plus_code": {
+          "compound_code": "",
+          "global_code": "",
+        },
+        "price_level": 3,
+        "rating": 4.4,
+        "reference": "",
+        "scope": "",
+        "types": [
+          "restaurant",
+          "food",
+          "point_of_interest",
+          "establishment"
+        ],
+        "user_ratings_total": 1064,
+        "vicinity": "180 Queen Street West, Toronto"
       }
     ],
     "status": "OK"

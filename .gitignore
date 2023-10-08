@@ -35,3 +35,5 @@ yarn-error.*
 *.tsbuildinfo
 
 */node_modules/**/*
+
+config
